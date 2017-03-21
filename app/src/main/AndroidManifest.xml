@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ActivityMain">
+        <activity android:name=".ActivitySample">
 
         </activity>
         <activity android:name=".viewstest.ActivityCusTextViewTest">
@@ -21,7 +21,7 @@
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>
-        <activity android:name=".home.ActivityHome">
+        <activity android:name=".home.ActivityMain">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

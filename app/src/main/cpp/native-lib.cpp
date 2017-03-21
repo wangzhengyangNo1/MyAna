@@ -3,7 +3,7 @@
 
 extern "C"
 jstring
-Java_com_wzhy_myana_ActivityMain_stringFromJNI(
+Java_com_wzhy_myana_ActivitySample_stringFromJNI(
         JNIEnv* env,
         jobject /* this */) {
     std::string hello = "Hello from C++";

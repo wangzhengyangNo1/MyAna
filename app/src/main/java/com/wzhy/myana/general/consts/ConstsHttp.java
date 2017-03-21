@@ -13,9 +13,9 @@ public enum ConstsHttp {
         this.API = api;
     }
 
-    public final String API_IMG = API + "api/images/";
+    public final String API_IMG = API + "api/images/";//图片地址
 
-    public final String IMG_PROFILE = API_IMG + "a.jpg";
+    public final String IMG_PROFILE = API_IMG + "a.jpg";//用户头像地址
 
 
 

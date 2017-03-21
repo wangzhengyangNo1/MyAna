@@ -10,7 +10,7 @@ import com.wzhy.myana.general.utils.SpanUtil;
 import com.wzhy.myana.general.utils.TextUtil;
 import com.wzhy.myana.general.utils.Util;
 
-public class ActivityMain extends AppCompatActivity implements Util {
+public class ActivitySample extends AppCompatActivity implements Util {
 
     private TextView mTvPackage;
     private TextView mTipView;
@@ -20,7 +20,7 @@ public class ActivityMain extends AppCompatActivity implements Util {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_sample);
 
         // Example of a call to a native method
         TextView tv = (TextView) findViewById(R.id.sample_text);

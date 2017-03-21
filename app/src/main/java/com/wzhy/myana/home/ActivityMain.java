@@ -13,8 +13,9 @@ import butterknife.OnClick;
 
 /**
  * Create by wangzhengyang on 2017/3/17.
+ * 主页
  */
-public class ActivityHome extends ActivityBase {
+public class ActivityMain extends ActivityBase {
 
     @BindView(R.id.click_me_btn)
     Button mClickMeBtn;
@@ -31,7 +32,7 @@ public class ActivityHome extends ActivityBase {
 
     @Override
     protected void initContentView() {
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_main);
     }
 
     @OnClick({R.id.click_me_btn, R.id.ok_btn})
