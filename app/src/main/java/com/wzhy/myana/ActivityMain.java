@@ -37,11 +37,11 @@ public class ActivityMain extends AppCompatActivity implements Util {
         Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/迷你简雁翎.ttf");
         //Typeface.createFromFile(path);Typeface.createFromFile(new File(path));
         mTvPackage.setTypeface(tf);
-        SpanUtil.create()
-                .addSection("本来无一物，何处惹尘埃。")
-                .setForeColor(Color.BLUE)
-                .showIn(mTvPackage);
-
+//        SpanUtil.create()
+//                .addSection("本来无一物，何处惹尘埃。")
+//                .setForeColor(Color.BLUE)
+//                .showIn(mTvPackage);
+        useOfSpanUtil();
     }
 
     private void useOfSpanUtil() {
