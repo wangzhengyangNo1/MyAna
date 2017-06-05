@@ -3,9 +3,11 @@ package com.wzhy.myana.home;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.wzhy.myana.R;
 import com.wzhy.myana.base.ActivityBase;
+import com.wzhy.myana.general.utils.SharedPrefsUtil;
 import com.wzhy.myana.general.utils.ToastUtil;
 
 import butterknife.BindView;
@@ -22,10 +24,15 @@ public class ActivityMain extends ActivityBase {
     @BindView(R.id.ok_btn)
     Button mOkBtn;
 
+    private static final String TAG = "ActivityMain";
+    private String mName;
+    private TextView mTv;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        SharedPrefsUtil.SP_USER.readFromSP(SPKEYS.KEY_AGE,"");
 
     }
 

@@ -7,10 +7,12 @@ import android.view.LayoutInflater;
 import com.wzhy.myana.AppAna;
 import com.wzhy.myana.general.consts.ConstsHttp;
 import com.wzhy.myana.general.consts.ConstsIntent;
+import com.wzhy.myana.general.consts.ConstsRequest;
 import com.wzhy.myana.general.consts.ConstsShared;
 
 /**
  * Created by wangzhengyang on 2017/2/20.
+ * 用于统一调用常量
  */
 
 public interface Util {
@@ -45,10 +47,13 @@ public interface Util {
     /**
      * ConstsHttp.DEBUG 调试版本
      * Constshttp.RELEASE 正式版本
+     * Util.HTTP. 获取网络请求接口
      */
     ConstsHttp HTTP = ConstsHttp.DEBUG;
 
-
-
+    /**
+     * ConstsRequest中存放的常量（关于网络请求的常量）
+     */
+    interface REQUEST extends ConstsRequest{}
 
 }
